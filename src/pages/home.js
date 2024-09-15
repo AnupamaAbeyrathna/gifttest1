@@ -10,9 +10,16 @@ const Sidebar = () =>
     <aside className="sidebar">
         Sidebar
     </aside>;
-    
-const MainContent = () => <main className="content">Main Content</main>;
-const Footer = () => <footer className="footer">Footer</footer>;
+
+const MainContent = () => 
+    <main className="content">
+        Main Content
+    </main>;
+
+const Footer = () => 
+    <footer className="footer">
+        Footer
+        </footer>;
 
 const Home = () => {
   return (
