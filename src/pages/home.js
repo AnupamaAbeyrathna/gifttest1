@@ -1,15 +1,18 @@
 import React from 'react';
-import './App.css';  // Make sure to import the CSS file
+import './home.css';  //
+import logo from '../Images/Logo/logo5.png';
 
 const Header = () => 
-    <header className="header">
-        Header
-    </header>;
-
-const Sidebar = () => 
-    <aside className="sidebar">
-        Sidebar
-    </aside>;
+<header className="header">
+  <div className="logo"><img src={logo} className="App-logo" alt="Company logo" /></div>
+  <nav className="nav-tabs">
+    <button>Home</button>
+    <button>About Us</button>
+    <button>Contact</button>
+    <button>News</button>
+  </nav>
+  <button className="sign-in">Sign In</button>
+</header>;
 
 const MainContent = () => 
     <main className="content">
@@ -26,7 +29,6 @@ const Home = () => {
     <div className="app-container">
       <Header />
       <div className="main-content">
-        <Sidebar />
         <MainContent />
       </div>
       <Footer />
