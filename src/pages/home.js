@@ -21,7 +21,17 @@ const MainContent = () =>
 
 const Footer = () => 
     <footer className="footer">
-        Footer
+        Footer 
+        {/* Copyright notice
+        Privacy policy link
+        Terms of service link
+        Contact information
+        Social media links
+        Site map or main navigation links
+        Company address
+        Newsletter signup form
+        "Back to top" button
+        Logo (usually smaller than in the header) */}
         </footer>;
 
 const Home = () => {
