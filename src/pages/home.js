@@ -14,9 +14,28 @@ const Header = () =>
   <button className="sign-in">Sign In</button>
 </header>;
 
+const FourColumnLayout = () =>
+
+  
+    <div className="container-selection">
+      <div className="column guru-premium">
+        <span className="label">GiftGuru Premium</span>
+      </div>
+      <div className="column chat-bot">
+        <span className="label">Ask GURU</span>
+      </div>
+      <div className="column marketplace">
+        <span className="label">Market place</span>
+      </div>
+      <div className="column custom-gift">
+        <span className="label">Custom Gift</span>
+      </div>
+    </div>
+
 const MainContent = () => 
     <main className="content">
         Main Content
+        <FourColumnLayout />
     </main>;
 
 const Footer = () => 

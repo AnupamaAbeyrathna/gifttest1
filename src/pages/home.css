@@ -55,3 +55,55 @@
   background-color: #6b7280;
   padding: 1rem;
 }
+
+.container-selection {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 10%;
+  padding-right: 10%;
+  gap: 40px;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  font-weight: bold;
+  text-align: center;
+}
+
+.guru-premium {
+  background-color: #FFD1DC;
+}
+
+.chat-bot {
+  background-color: #FFF0C0;
+}
+
+.marketplace {
+  background-color: #D0FFD0;
+}
+
+.custom-gift {
+  background-color: #E6E6FA;
+}
+
+@media (max-width: 768px) {
+  .container-selection {
+    flex-direction: column;
+    height: auto;
+  }
+  .column {
+    margin-bottom: 20px;
+  }
+}
+
